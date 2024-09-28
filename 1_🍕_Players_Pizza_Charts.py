@@ -348,7 +348,7 @@ with tab2 :
     #print(teams_names)
     ############# VARIABLES ########
     # Streamlit selectbox for team
-    team_2_var = st.selectbox("Select the second player's team : ", teams_names, index=0) # Default value to be the first value
+    team_2_var = st.selectbox("Select the second player's team : ", teams_names, index=1) # Default value to be the first value
 
 
     # Filter the DataFrame based on the selected team
