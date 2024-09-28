@@ -1,0 +1,4 @@
+mplsoccer
+numpy
+pandas
+openpyxl
