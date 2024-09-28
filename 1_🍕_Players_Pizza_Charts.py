@@ -230,8 +230,11 @@ with tab1:
     color="#F2F2F2",
     ha="left"
     )
-    # Display the pizza chart in Streamlit
-    st.pyplot(fig)
+    # Add an "Apply" button
+    if st.button('Apply', key='apply_pizza_chart'):
+        # Plot your pizza chart here after the button is pressed
+        st.pyplot(fig)
+
 
     with st.expander("Metric Glossary"):
         st.write("""
@@ -492,10 +495,10 @@ with tab2 :
     color="#F2F2F2",
     ha="left"
     )
-    # Display the pizza chart in Streamlit
-    st.pyplot(fig)
-
-
+    # Add an "Apply" button
+    if st.button('Apply', key='apply_player_comparison'):
+        # Plot your pizza chart here after the button is pressed
+        st.pyplot(fig)
 
 
 
