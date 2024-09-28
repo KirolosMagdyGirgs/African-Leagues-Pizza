@@ -39,3 +39,19 @@ styled_df = player_season_stats_p90_percentiles_df.style.background_gradient(
 # Display the styled DataFrame in Streamlit
 st.dataframe(styled_df)
 ##, height=750   add this to increase the height in the page
+
+
+
+with st.expander("Metric Glossary"):
+    st.write("""
+    This is the glossary for all the metrics used in this analysis. Each metric is explained in detail below:
+
+    - **Overrun**: Heavy touch in a dribble.
+    - **Progressive Passes**: A pass that moves the ball closer to the opponent goal by 25% & at least 5 m vertically.
+    - **Second Assist** : The last action of a player from the goalscoring team, prior to an Assist by a teammate.
+    - **Lay-off** : A pass by a striker who has received the ball with his back to goal and is played back towards team-mates.
+    - **Dispossessed** : Player is dispossessed on the ball by an opponent – no dribble involved.
+    - **GK Distribution** : Actions where the goalkeeper successfully distributes the ball to a teammate.
+    - **GK Launches**  : long balls launched forward into an area of the pitch rather than to a specific team-mate.
+    - **Other Goals** : Goals scored using any body part other than the right foot, left foot, or the head. 
+    """)
