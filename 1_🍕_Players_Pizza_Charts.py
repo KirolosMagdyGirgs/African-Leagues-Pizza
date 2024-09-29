@@ -238,7 +238,7 @@ with tab1:
 
     with st.expander("Metric Glossary"):
         st.write("""
-        This is the glossary for all the metrics used in this analysis. Each metric is explained in detail below:
+        This is the glossary for some of the metrics used in this analysis:
 
         - **Overrun**: Heavy touch in a dribble.
         - **Progressive Passes**: A pass that moves the ball closer to the opponent goal by 25% & at least 5 m vertically.
@@ -509,7 +509,7 @@ with tab2 :
 
     with st.expander("Metric Glossary"):
         st.write("""
-        This is the glossary for all the metrics used in this analysis. Each metric is explained in detail below:
+        This is the glossary for some of the metrics used in this analysis:
 
         - **Overrun**: Heavy touch in a dribble.
         - **Progressive Passes**: A pass that moves the ball closer to the opponent goal by 25% & at least 5 m vertically.
